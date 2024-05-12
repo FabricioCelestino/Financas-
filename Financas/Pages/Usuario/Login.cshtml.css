@@ -1,0 +1,23 @@
+﻿body {
+}
+
+
+.position{
+    display: flex;
+    justify-content: center;
+}
+
+form{
+
+    width:50%;
+}
+
+.Margintop{
+
+    margin-top: 5px;
+}
+
+
+.ColorForm {
+    background-color: #120a8f;
+}

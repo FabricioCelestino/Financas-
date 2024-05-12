@@ -1,0 +1,27 @@
+﻿@page
+@model Financas.Pages.Usuario.LoginModel
+@{
+    ViewData["Title"] = "Login";
+    Layout = "_LayoutLogin";
+}
+
+<div class="position ColorForm" >
+    <form method="post">
+        <div asp-validation-summary="ModelOnly" class="text-danger" ></div>
+        <div>
+            <label asp-for="@Model.User.Email" class="form-label"></label>
+            <input asp-for="@Model.User.Email" class="form-control"/>
+            <span asp-validation-for="@Model.User.Email" class="text-danger"></span>
+        </div>
+        <div>
+            <label asp-for="@Model.User.Password" class="form-label"></label>
+            <input asp-for="@Model.User.Password" class="form-control"/>
+            <span asp-validation-for="@Model.User.Password" class="text-danger"></span>
+        </div>
+        <div>
+            <input type="submit"  value="Login" class="btn btn-primary Margintop" />
+        </div>
+    </form>
+
+
+</div>
