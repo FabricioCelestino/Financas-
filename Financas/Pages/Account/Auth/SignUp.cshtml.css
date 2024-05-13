@@ -1,7 +1,6 @@
 ﻿body {
 }
 
-
 .position {
     display: flex;
     justify-content: center;
@@ -13,13 +12,14 @@
     height: 40%;
     align-content: center;
     flex-wrap: wrap;
-   
 }
 
 
-.Margintop{
-
+.btnconfig {
     margin-top: 5px;
+    background-color: #d8deeb;
+    color: black;
+    border: none;
 }
 
 

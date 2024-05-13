@@ -1,0 +1,39 @@
+﻿@page
+@model SignUpModel
+@{
+    Layout = "_LayoutLogin";
+}
+
+<div class="position ColorForm">
+    <form method="post" class="FormLayout">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div>
+            <label asp-for="@Model.InputUser.FirstName" class="form-label"></label>
+            <input asp-for="@Model.InputUser.FirstName" class="form-control" />
+            <span asp-validation-for="@Model.InputUser.FirstName" class="text-danger"></span>
+        </div>
+        <div>
+            <label asp-for="@Model.InputUser.LastName" class="form-label"></label>
+            <input asp-for="@Model.InputUser.LastName" class="form-control" />
+            <span asp-validation-for="@Model.InputUser.LastName" class="text-danger"></span>
+        </div>
+        <div>
+            <label asp-for="@Model.InputUser.Email" class="form-label"></label>
+            <input asp-for="@Model.InputUser.Email" class="form-control"/>
+            <span asp-validation-for="@Model.InputUser.Email" class="text-danger"></span>
+        </div>
+        <div>
+            <label asp-for="@Model.InputUser.Password" class="form-label"></label>
+            <input asp-for="@Model.InputUser.Password" class="form-control" />
+            <span asp-validation-for="@Model.InputUser.Password" class="text-danger"></span>
+        </div>
+        <div>
+            <label asp-for="@Model.InputUser.PhoneNumber" class="form-label"></label>
+            <input asp-for="@Model.InputUser.PhoneNumber" class="form-control" />
+            <span asp-validation-for="@Model.InputUser.PhoneNumber" class="text-danger"></span>
+        </div>
+        <div>
+            <input type="submit" value="Sign Up" class="btn btn-primary btnconfig" />
+        </div>
+    </form>
+</div>

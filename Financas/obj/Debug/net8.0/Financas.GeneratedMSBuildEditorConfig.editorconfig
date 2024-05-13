@@ -42,9 +42,13 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fabri/source/repos/Financas/Financas/Pages/Auth/Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aFxMb2dpbi5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = b-yfb9j1w0um
+[C:/Users/fabri/source/repos/Financas/Financas/Pages/Account/Auth/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxBdXRoXExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-20aphebhd3
+
+[C:/Users/fabri/source/repos/Financas/Financas/Pages/Account/Auth/SignUp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxBdXRoXFNpZ25VcC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-i1g8wau2q8
 
 [C:/Users/fabri/source/repos/Financas/Financas/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s

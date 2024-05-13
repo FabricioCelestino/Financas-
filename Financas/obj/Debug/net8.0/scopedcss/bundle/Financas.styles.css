@@ -1,9 +1,9 @@
-/* _content/Financas/Pages/Auth/Login.cshtml.rz.scp.css */
-body[b-yfb9j1w0um] {
+/* _content/Financas/Pages/Account/Auth/Login.cshtml.rz.scp.css */
+body[b-20aphebhd3] {
 }
 
 
-.position[b-yfb9j1w0um] {
+.position[b-20aphebhd3] {
     display: flex;
     justify-content: center;
     position: relative;
@@ -14,21 +14,59 @@ body[b-yfb9j1w0um] {
     height: 40%;
     align-content: center;
     flex-wrap: wrap;
-   
 }
 
 
-.Margintop[b-yfb9j1w0um]{
-
+.btnconfig[b-20aphebhd3] {
     margin-top: 5px;
+    background-color: #d8deeb;
+    color: black;
+    border: none;
 }
 
 
-.ColorForm[b-yfb9j1w0um] {
+.ColorForm[b-20aphebhd3] {
     background-color: #120a8f;
 }
 
-.FormLayout[b-yfb9j1w0um] {
+.FormLayout[b-20aphebhd3] {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    width: 100%;
+}
+/* _content/Financas/Pages/Account/Auth/SignUp.cshtml.rz.scp.css */
+body[b-i1g8wau2q8] {
+}
+
+.position[b-i1g8wau2q8] {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: 30px;
+    color: white;
+    border-radius: 20px;
+    width: 25%;
+    height: 40%;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+
+.btnconfig[b-i1g8wau2q8] {
+    margin-top: 5px;
+    background-color: #d8deeb;
+    color: black;
+    border: none;
+}
+
+
+.ColorForm[b-i1g8wau2q8] {
+    background-color: #120a8f;
+}
+
+.FormLayout[b-i1g8wau2q8] {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -109,3 +147,4 @@ body[b-e7e6cajcp7] {
     flex-wrap: wrap;
     flex-direction: row;
 }
+
