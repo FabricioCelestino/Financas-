@@ -22,3 +22,11 @@ body[b-e7e6cajcp7] {
     flex-direction: row;
 }
 
+li[b-e7e6cajcp7]{
+    border-radius: 10px;
+
+}
+
+li:hover[b-e7e6cajcp7] {
+    background-color: #d8deeb;
+}

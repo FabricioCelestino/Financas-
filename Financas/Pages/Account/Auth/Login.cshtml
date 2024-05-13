@@ -5,23 +5,27 @@
     Layout = "_LayoutLogin";
 }
 
-<div class="position ColorForm" >
+<div class="position ColorForm">
     <form method="post" class="FormLayout">
-        <div asp-validation-summary="ModelOnly" class="text-danger" ></div>
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
         <div>
-            <label asp-for="@Model.User.Email" class="form-label"></label>
-            <input asp-for="@Model.User.Email" class="form-control"/>
-            <span asp-validation-for="@Model.User.Email" class="text-danger"></span>
+            <label asp-for="@Model.Input.Email" class="form-label"></label>
+            <input asp-for="@Model.Input.Email" class="form-control" />
+            <span asp-validation-for="@Model.Input.Email" class="text-danger"></span>
         </div>
         <div>
-            <label asp-for="@Model.User.Password" class="form-label"></label>
-            <input asp-for="@Model.User.Password" class="form-control"/>
-            <span asp-validation-for="@Model.User.Password" class="text-danger"></span>
+            <label asp-for="@Model.Input.Password" class="form-label"></label>
+            <input asp-for="@Model.Input.Password" class="form-control" />
+            <span asp-validation-for="@Model.Input.Password" class="text-danger"></span>
+        </div>
+        <div class="RememberMePosition">
+            <label asp-for="@Model.Input.RememberMe" class="form-label"></label>
+            <input asp-for="@Model.Input.RememberMe" type="checkbox" class="form-check" />
         </div>
         <div>
-            <input type="submit"  value="Login" class="btn btn-primary btnconfig" />
+            <input type="submit" value="SignIn" class="btn btn-primary btnconfig" />
         </div>
+      
     </form>
-
 
 </div>

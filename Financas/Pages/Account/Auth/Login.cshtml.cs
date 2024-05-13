@@ -1,4 +1,5 @@
 using Financas.Models;
+using Financas.ViewModel;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
@@ -8,7 +9,7 @@ namespace Financas.Pages.Auth
     {
 
         [BindProperty(SupportsGet = true)]
-        public new User User { get; set; }
+        public SignInViewModel Input { get; set; }
 
         public void OnGet()
         {

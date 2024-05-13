@@ -22,3 +22,11 @@
     flex-direction: row;
 }
 
+li{
+    border-radius: 10px;
+
+}
+
+li:hover {
+    background-color: #d8deeb;
+}
