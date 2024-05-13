@@ -1,7 +1,14 @@
+using Financas.Data.DataAcess;
+using Microsoft.EntityFrameworkCore;
+
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+
+builder.Services.AddDbContext<ApplicationDataBase>(options =>
+options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultString")));
 
 var app = builder.Build();
 
