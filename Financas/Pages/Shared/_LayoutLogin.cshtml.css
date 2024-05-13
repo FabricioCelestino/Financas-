@@ -1,4 +1,5 @@
 ﻿body {
+    height: 1004px;
 }
 
 .footer {
@@ -10,7 +11,13 @@
 }
 
 
-.box{
-    width: 100%
 
+.displaymain {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
 }

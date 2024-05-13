@@ -2,7 +2,7 @@ using Financas.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace Financas.Pages.Usuario
+namespace Financas.Pages.Auth
 {
     public class LoginModel : PageModel
     {

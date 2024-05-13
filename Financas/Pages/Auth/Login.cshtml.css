@@ -1,0 +1,36 @@
+﻿body {
+}
+
+
+.position {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: 30px;
+    color: white;
+    border-radius: 20px;
+    width: 25%;
+    height: 40%;
+    align-content: center;
+    flex-wrap: wrap;
+   
+}
+
+
+.Margintop{
+
+    margin-top: 5px;
+}
+
+
+.ColorForm {
+    background-color: #120a8f;
+}
+
+.FormLayout {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    width: 100%;
+}

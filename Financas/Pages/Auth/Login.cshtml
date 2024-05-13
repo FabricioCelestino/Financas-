@@ -1,12 +1,12 @@
 ﻿@page
-@model Financas.Pages.Usuario.LoginModel
+@model Financas.Pages.Auth.LoginModel
 @{
     ViewData["Title"] = "Login";
     Layout = "_LayoutLogin";
 }
 
 <div class="position ColorForm" >
-    <form method="post">
+    <form method="post" class="FormLayout">
         <div asp-validation-summary="ModelOnly" class="text-danger" ></div>
         <div>
             <label asp-for="@Model.User.Email" class="form-label"></label>

@@ -1,4 +1,5 @@
 body[b-e7e6cajcp7] {
+    height: 1004px;
 }
 
 .footer[b-e7e6cajcp7] {
@@ -10,7 +11,13 @@ body[b-e7e6cajcp7] {
 }
 
 
-.box[b-e7e6cajcp7]{
-    width: 100%
 
+.displaymain[b-e7e6cajcp7] {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
 }

@@ -28,5 +28,6 @@ C:\Users\fabri\source\repos\Financas\Financas\obj\Debug\net8.0\refint\Financas.d
 C:\Users\fabri\source\repos\Financas\Financas\obj\Debug\net8.0\Financas.pdb
 C:\Users\fabri\source\repos\Financas\Financas\obj\Debug\net8.0\Financas.genruntimeconfig.cache
 C:\Users\fabri\source\repos\Financas\Financas\obj\Debug\net8.0\ref\Financas.dll
-C:\Users\fabri\source\repos\Financas\Financas\obj\Debug\net8.0\scopedcss\Pages\Usuario\Login.cshtml.rz.scp.css
 C:\Users\fabri\source\repos\Financas\Financas\obj\Debug\net8.0\scopedcss\Pages\Shared\_LayoutLogin.cshtml.rz.scp.css
+C:\Users\fabri\source\repos\Financas\Financas\obj\Debug\net8.0\Financas.sourcelink.json
+C:\Users\fabri\source\repos\Financas\Financas\obj\Debug\net8.0\scopedcss\Pages\Auth\Login.cshtml.rz.scp.css
