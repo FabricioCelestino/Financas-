@@ -14,6 +14,8 @@ namespace Financas.ViewModel
         public string? Password { get; set; }
 
         [DisplayName("Remember Me")]
-        public bool RememberMe { get; set; } 
+        public bool RememberMe { get; set; }
+
+        
     }
 }
