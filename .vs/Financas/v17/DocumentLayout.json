@@ -3,24 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\fabri\\source\\repos\\Financas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6FFFA2B3-A94F-4D7F-B98A-E572AB90B688}|Financas\\Financas.csproj|c:\\users\\fabri\\source\\repos\\financas\\financas\\pages\\account\\auth\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FFFA2B3-A94F-4D7F-B98A-E572AB90B688}|Financas\\Financas.csproj|solutionrelative:financas\\pages\\account\\auth\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6FFFA2B3-A94F-4D7F-B98A-E572AB90B688}|Financas\\Financas.csproj|c:\\users\\fabri\\source\\repos\\financas\\financas\\pages\\account\\auth\\signup.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6FFFA2B3-A94F-4D7F-B98A-E572AB90B688}|Financas\\Financas.csproj|solutionrelative:financas\\pages\\account\\auth\\signup.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FFFA2B3-A94F-4D7F-B98A-E572AB90B688}|Financas\\Financas.csproj|c:\\users\\fabri\\source\\repos\\financas\\financas\\pages\\account\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6FFFA2B3-A94F-4D7F-B98A-E572AB90B688}|Financas\\Financas.csproj|solutionrelative:financas\\pages\\account\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6FFFA2B3-A94F-4D7F-B98A-E572AB90B688}|Financas\\Financas.csproj|c:\\users\\fabri\\source\\repos\\financas\\financas\\services\\signupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FFFA2B3-A94F-4D7F-B98A-E572AB90B688}|Financas\\Financas.csproj|solutionrelative:financas\\services\\signupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FFFA2B3-A94F-4D7F-B98A-E572AB90B688}|Financas\\Financas.csproj|c:\\users\\fabri\\source\\repos\\financas\\financas\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FFFA2B3-A94F-4D7F-B98A-E572AB90B688}|Financas\\Financas.csproj|solutionrelative:financas\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FFFA2B3-A94F-4D7F-B98A-E572AB90B688}|Financas\\Financas.csproj|c:\\users\\fabri\\source\\repos\\financas\\financas\\data\\dtos\\signupviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FFFA2B3-A94F-4D7F-B98A-E572AB90B688}|Financas\\Financas.csproj|solutionrelative:financas\\data\\dtos\\signupviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6FFFA2B3-A94F-4D7F-B98A-E572AB90B688}|Financas\\Financas.csproj|c:\\users\\fabri\\source\\repos\\financas\\financas\\pages\\account\\auth\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6FFFA2B3-A94F-4D7F-B98A-E572AB90B688}|Financas\\Financas.csproj|solutionrelative:financas\\pages\\account\\auth\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{6FFFA2B3-A94F-4D7F-B98A-E572AB90B688}|Financas\\Financas.csproj|c:\\users\\fabri\\source\\repos\\financas\\financas\\viewmodel\\signinviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FFFA2B3-A94F-4D7F-B98A-E572AB90B688}|Financas\\Financas.csproj|solutionrelative:financas\\viewmodel\\signinviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FFFA2B3-A94F-4D7F-B98A-E572AB90B688}|Financas\\Financas.csproj|c:\\users\\fabri\\source\\repos\\financas\\financas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FFFA2B3-A94F-4D7F-B98A-E572AB90B688}|Financas\\Financas.csproj|solutionrelative:financas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FFFA2B3-A94F-4D7F-B98A-E572AB90B688}|Financas\\Financas.csproj|c:\\users\\fabri\\source\\repos\\financas\\financas\\pages\\account\\auth\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FFFA2B3-A94F-4D7F-B98A-E572AB90B688}|Financas\\Financas.csproj|solutionrelative:financas\\pages\\account\\auth\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FFFA2B3-A94F-4D7F-B98A-E572AB90B688}|Financas\\Financas.csproj|c:\\users\\fabri\\source\\repos\\financas\\financas\\pages\\account\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6FFFA2B3-A94F-4D7F-B98A-E572AB90B688}|Financas\\Financas.csproj|solutionrelative:financas\\pages\\account\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6FFFA2B3-A94F-4D7F-B98A-E572AB90B688}|Financas\\Financas.csproj|c:\\users\\fabri\\source\\repos\\financas\\financas\\pages\\shared\\_layoutlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6FFFA2B3-A94F-4D7F-B98A-E572AB90B688}|Financas\\Financas.csproj|solutionrelative:financas\\pages\\shared\\_layoutlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FFFA2B3-A94F-4D7F-B98A-E572AB90B688}|Financas\\Financas.csproj|c:\\users\\fabri\\source\\repos\\financas\\financas\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6FFFA2B3-A94F-4D7F-B98A-E572AB90B688}|Financas\\Financas.csproj|solutionrelative:financas\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6FFFA2B3-A94F-4D7F-B98A-E572AB90B688}|Financas\\Financas.csproj|c:\\users\\fabri\\source\\repos\\financas\\financas\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -35,28 +59,8 @@
       "RelativeMoniker": "D:0:0:{6FFFA2B3-A94F-4D7F-B98A-E572AB90B688}|Financas\\Financas.csproj|solutionrelative:financas\\pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FFFA2B3-A94F-4D7F-B98A-E572AB90B688}|Financas\\Financas.csproj|c:\\users\\fabri\\source\\repos\\financas\\financas\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6FFFA2B3-A94F-4D7F-B98A-E572AB90B688}|Financas\\Financas.csproj|solutionrelative:financas\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6FFFA2B3-A94F-4D7F-B98A-E572AB90B688}|Financas\\Financas.csproj|c:\\users\\fabri\\source\\repos\\financas\\financas\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{6FFFA2B3-A94F-4D7F-B98A-E572AB90B688}|Financas\\Financas.csproj|solutionrelative:financas\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6FFFA2B3-A94F-4D7F-B98A-E572AB90B688}|Financas\\Financas.csproj|c:\\users\\fabri\\source\\repos\\financas\\financas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FFFA2B3-A94F-4D7F-B98A-E572AB90B688}|Financas\\Financas.csproj|solutionrelative:financas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6FFFA2B3-A94F-4D7F-B98A-E572AB90B688}|Financas\\Financas.csproj|c:\\users\\fabri\\source\\repos\\financas\\financas\\viewmodel\\signupviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FFFA2B3-A94F-4D7F-B98A-E572AB90B688}|Financas\\Financas.csproj|solutionrelative:financas\\viewmodel\\signupviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6FFFA2B3-A94F-4D7F-B98A-E572AB90B688}|Financas\\Financas.csproj|c:\\users\\fabri\\source\\repos\\financas\\financas\\viewmodel\\signinviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FFFA2B3-A94F-4D7F-B98A-E572AB90B688}|Financas\\Financas.csproj|solutionrelative:financas\\viewmodel\\signinviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6FFFA2B3-A94F-4D7F-B98A-E572AB90B688}|Financas\\Financas.csproj|c:\\users\\fabri\\source\\repos\\financas\\financas\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FFFA2B3-A94F-4D7F-B98A-E572AB90B688}|Financas\\Financas.csproj|solutionrelative:financas\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6FFFA2B3-A94F-4D7F-B98A-E572AB90B688}|Financas\\Financas.csproj|c:\\users\\fabri\\source\\repos\\financas\\financas\\pages\\account\\auth\\login.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -142,98 +146,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\Financas\\Financas\\appsettings.json",
-              "RelativeDocumentMoniker": "Financas\\appsettings.json",
-              "ToolTip": "C:\\Users\\fabri\\source\\repos\\Financas\\Financas\\appsettings.json",
-              "RelativeToolTip": "Financas\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-11T23:37:06.668Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "SignUp.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\Financas\\Financas\\Pages\\Account\\Auth\\SignUp.cshtml.cs",
-              "RelativeDocumentMoniker": "Financas\\Pages\\Account\\Auth\\SignUp.cshtml.cs",
-              "ToolTip": "C:\\Users\\fabri\\source\\repos\\Financas\\Financas\\Pages\\Account\\Auth\\SignUp.cshtml.cs",
-              "RelativeToolTip": "Financas\\Pages\\Account\\Auth\\SignUp.cshtml.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAvwBsAAAA3AAAA",
+              "Title": "SignUpService.cs",
+              "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\Financas\\Financas\\Services\\SignUpService.cs",
+              "RelativeDocumentMoniker": "Financas\\Services\\SignUpService.cs",
+              "ToolTip": "C:\\Users\\fabri\\source\\repos\\Financas\\Financas\\Services\\SignUpService.cs",
+              "RelativeToolTip": "Financas\\Services\\SignUpService.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwCcAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T17:33:57.085Z",
+              "WhenOpened": "2024-05-18T19:56:21.346Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\Financas\\Financas\\Pages\\Account\\Auth\\Login.cshtml",
-              "RelativeDocumentMoniker": "Financas\\Pages\\Account\\Auth\\Login.cshtml",
-              "ToolTip": "C:\\Users\\fabri\\source\\repos\\Financas\\Financas\\Pages\\Account\\Auth\\Login.cshtml",
-              "RelativeToolTip": "Financas\\Pages\\Account\\Auth\\Login.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-12T00:03:43.879Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\Financas\\Financas\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Financas\\Pages\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\fabri\\source\\repos\\Financas\\Financas\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Financas\\Pages\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-11T23:55:15.904Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_LayoutLogin.cshtml",
-              "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\Financas\\Financas\\Pages\\Shared\\_LayoutLogin.cshtml",
-              "RelativeDocumentMoniker": "Financas\\Pages\\Shared\\_LayoutLogin.cshtml",
-              "ToolTip": "C:\\Users\\fabri\\source\\repos\\Financas\\Financas\\Pages\\Shared\\_LayoutLogin.cshtml",
-              "RelativeToolTip": "Financas\\Pages\\Shared\\_LayoutLogin.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABcAAABMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-12T00:47:47.17Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "Login.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\Financas\\Financas\\Pages\\Account\\Auth\\Login.cshtml.cs",
               "RelativeDocumentMoniker": "Financas\\Pages\\Account\\Auth\\Login.cshtml.cs",
               "ToolTip": "C:\\Users\\fabri\\source\\repos\\Financas\\Financas\\Pages\\Account\\Auth\\Login.cshtml.cs",
               "RelativeToolTip": "Financas\\Pages\\Account\\Auth\\Login.cshtml.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAASwCQAAAAUAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAowBwAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-12T00:03:47.22Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Privacy.cshtml",
-              "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\Financas\\Financas\\Pages\\Privacy.cshtml",
-              "RelativeDocumentMoniker": "Financas\\Pages\\Privacy.cshtml",
-              "ToolTip": "C:\\Users\\fabri\\source\\repos\\Financas\\Financas\\Pages\\Privacy.cshtml",
-              "RelativeToolTip": "Financas\\Pages\\Privacy.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-13T20:50:38.168Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "Privacy.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\Financas\\Financas\\Pages\\Privacy.cshtml.cs",
               "RelativeDocumentMoniker": "Financas\\Pages\\Privacy.cshtml.cs",
@@ -241,51 +180,150 @@
               "RelativeToolTip": "Financas\\Pages\\Privacy.cshtml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T22:19:25.282Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-17T22:19:25.282Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "SignUp.cshtml",
               "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\Financas\\Financas\\Pages\\Account\\Auth\\SignUp.cshtml",
               "RelativeDocumentMoniker": "Financas\\Pages\\Account\\Auth\\SignUp.cshtml",
               "ToolTip": "C:\\Users\\fabri\\source\\repos\\Financas\\Financas\\Pages\\Account\\Auth\\SignUp.cshtml",
               "RelativeToolTip": "Financas\\Pages\\Account\\Auth\\SignUp.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAKAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-13T17:21:54.739Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\Financas\\Financas\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Financas\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\fabri\\source\\repos\\Financas\\Financas\\Models\\User.cs",
+              "RelativeToolTip": "Financas\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T23:38:28.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SignUp.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\Financas\\Financas\\Pages\\Account\\Auth\\SignUp.cshtml.cs",
+              "RelativeDocumentMoniker": "Financas\\Pages\\Account\\Auth\\SignUp.cshtml.cs",
+              "ToolTip": "C:\\Users\\fabri\\source\\repos\\Financas\\Financas\\Pages\\Account\\Auth\\SignUp.cshtml.cs",
+              "RelativeToolTip": "Financas\\Pages\\Account\\Auth\\SignUp.cshtml.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAuwC8AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T17:33:57.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\Financas\\Financas\\Program.cs",
               "RelativeDocumentMoniker": "Financas\\Program.cs",
               "ToolTip": "C:\\Users\\fabri\\source\\repos\\Financas\\Financas\\Program.cs",
               "RelativeToolTip": "Financas\\Program.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAABAAAAAfAAAA",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAAADUAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-11T23:36:55.126Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 3,
               "Title": "SignUpViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\Financas\\Financas\\ViewModel\\SignUpViewModel.cs",
-              "RelativeDocumentMoniker": "Financas\\ViewModel\\SignUpViewModel.cs",
-              "ToolTip": "C:\\Users\\fabri\\source\\repos\\Financas\\Financas\\ViewModel\\SignUpViewModel.cs",
-              "RelativeToolTip": "Financas\\ViewModel\\SignUpViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAYAAAA",
+              "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\Financas\\Financas\\Data\\DTOS\\SignUpViewModel.cs",
+              "RelativeDocumentMoniker": "Financas\\Data\\DTOS\\SignUpViewModel.cs",
+              "ToolTip": "C:\\Users\\fabri\\source\\repos\\Financas\\Financas\\Data\\DTOS\\SignUpViewModel.cs",
+              "RelativeToolTip": "Financas\\Data\\DTOS\\SignUpViewModel.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwB8AAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-13T22:33:18.694Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
+              "Title": "SignInViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\Financas\\Financas\\ViewModel\\SignInViewModel.cs",
+              "RelativeDocumentMoniker": "Financas\\ViewModel\\SignInViewModel.cs",
+              "ToolTip": "C:\\Users\\fabri\\source\\repos\\Financas\\Financas\\ViewModel\\SignInViewModel.cs",
+              "RelativeToolTip": "Financas\\ViewModel\\SignInViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T21:43:04.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\Financas\\Financas\\Pages\\Account\\Auth\\Login.cshtml",
+              "RelativeDocumentMoniker": "Financas\\Pages\\Account\\Auth\\Login.cshtml",
+              "ToolTip": "C:\\Users\\fabri\\source\\repos\\Financas\\Financas\\Pages\\Account\\Auth\\Login.cshtml",
+              "RelativeToolTip": "Financas\\Pages\\Account\\Auth\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-12T00:03:43.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\Financas\\Financas\\Pages\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Financas\\Pages\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\fabri\\source\\repos\\Financas\\Financas\\Pages\\Privacy.cshtml",
+              "RelativeToolTip": "Financas\\Pages\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-13T20:50:38.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_LayoutLogin.cshtml",
+              "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\Financas\\Financas\\Pages\\Shared\\_LayoutLogin.cshtml",
+              "RelativeDocumentMoniker": "Financas\\Pages\\Shared\\_LayoutLogin.cshtml",
+              "ToolTip": "C:\\Users\\fabri\\source\\repos\\Financas\\Financas\\Pages\\Shared\\_LayoutLogin.cshtml",
+              "RelativeToolTip": "Financas\\Pages\\Shared\\_LayoutLogin.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABcAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-12T00:47:47.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\Financas\\Financas\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Financas\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\fabri\\source\\repos\\Financas\\Financas\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Financas\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-11T23:55:15.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\Financas\\Financas\\appsettings.json",
+              "RelativeDocumentMoniker": "Financas\\appsettings.json",
+              "ToolTip": "C:\\Users\\fabri\\source\\repos\\Financas\\Financas\\appsettings.json",
+              "RelativeToolTip": "Financas\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-11T23:37:06.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\Financas\\Financas\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "Financas\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -293,12 +331,11 @@
               "RelativeToolTip": "Financas\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-11T23:56:47.135Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-11T23:56:47.135Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\Financas\\Financas\\Pages\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Financas\\Pages\\_ViewImports.cshtml",
@@ -310,20 +347,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "SignInViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\Financas\\Financas\\ViewModel\\SignInViewModel.cs",
-              "RelativeDocumentMoniker": "Financas\\ViewModel\\SignInViewModel.cs",
-              "ToolTip": "C:\\Users\\fabri\\source\\repos\\Financas\\Financas\\ViewModel\\SignInViewModel.cs",
-              "RelativeToolTip": "Financas\\ViewModel\\SignInViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T21:43:04.301Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Login.cshtml.css",
               "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\Financas\\Financas\\Pages\\Account\\Auth\\Login.cshtml.css",
               "RelativeDocumentMoniker": "Financas\\Pages\\Account\\Auth\\Login.cshtml.css",
@@ -331,12 +355,11 @@
               "RelativeToolTip": "Financas\\Pages\\Account\\Auth\\Login.cshtml.css",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-05-12T00:36:03.198Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-12T00:36:03.198Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "ApplicationDataBase.cs",
               "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\Financas\\Financas\\Data\\DataAcess\\ApplicationDataBase.cs",
               "RelativeDocumentMoniker": "Financas\\Data\\DataAcess\\ApplicationDataBase.cs",
@@ -344,12 +367,11 @@
               "RelativeToolTip": "Financas\\Data\\DataAcess\\ApplicationDataBase.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T15:45:01.956Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-13T15:45:01.956Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "20240515230039_AddIdentityUser.cs",
               "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\Financas\\Financas\\Migrations\\20240515230039_AddIdentityUser.cs",
               "RelativeDocumentMoniker": "Financas\\Migrations\\20240515230039_AddIdentityUser.cs",
@@ -361,20 +383,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\Financas\\Financas\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Financas\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\fabri\\source\\repos\\Financas\\Financas\\Models\\User.cs",
-              "RelativeToolTip": "Financas\\Models\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAnwBIAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T23:38:28.724Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\Financas\\Financas\\Pages\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Financas\\Pages\\_ViewStart.cshtml",
@@ -386,7 +395,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "SignUp.cshtml.css",
               "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\Financas\\Financas\\Pages\\Account\\Auth\\SignUp.cshtml.css",
               "RelativeDocumentMoniker": "Financas\\Pages\\Account\\Auth\\SignUp.cshtml.css",
@@ -398,7 +407,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "20240515230821_AddIdentityUser.cs",
               "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\Financas\\Financas\\Migrations\\20240515230821_AddIdentityUser.cs",
               "RelativeDocumentMoniker": "Financas\\Migrations\\20240515230821_AddIdentityUser.cs",
@@ -410,7 +419,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "_LayoutLogin.cshtml.css",
               "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\Financas\\Financas\\Pages\\Shared\\_LayoutLogin.cshtml.css",
               "RelativeDocumentMoniker": "Financas\\Pages\\Shared\\_LayoutLogin.cshtml.css",
@@ -422,7 +431,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "_Layout.cshtml.css",
               "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\Financas\\Financas\\Pages\\Shared\\_Layout.cshtml.css",
               "RelativeDocumentMoniker": "Financas\\Pages\\Shared\\_Layout.cshtml.css",
@@ -434,7 +443,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "20240513163424_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\Financas\\Financas\\Migrations\\20240513163424_InitialCreate.cs",
               "RelativeDocumentMoniker": "Financas\\Migrations\\20240513163424_InitialCreate.cs",
@@ -446,7 +455,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "Error.cshtml",
               "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\Financas\\Financas\\Pages\\Error.cshtml",
               "RelativeDocumentMoniker": "Financas\\Pages\\Error.cshtml",
@@ -458,7 +467,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\Financas\\Financas\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "Financas\\Pages\\Index.cshtml",
@@ -470,7 +479,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "20240513163516_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\Financas\\Financas\\Migrations\\20240513163516_InitialCreate.cs",
               "RelativeDocumentMoniker": "Financas\\Migrations\\20240513163516_InitialCreate.cs",
@@ -482,7 +491,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "20240513163148_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\Financas\\Financas\\Migrations\\20240513163148_InitialCreate.cs",
               "RelativeDocumentMoniker": "Financas\\Migrations\\20240513163148_InitialCreate.cs",
@@ -494,7 +503,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\Financas\\Financas\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Financas\\Properties\\launchSettings.json",
@@ -506,7 +515,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "Financas",
               "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\Financas\\Financas\\Financas.csproj",
               "RelativeDocumentMoniker": "Financas\\Financas.csproj",
@@ -517,7 +526,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\fabri\\source\\repos\\Financas\\Financas\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "Financas\\wwwroot\\css\\site.css",

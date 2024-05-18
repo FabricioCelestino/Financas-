@@ -8,34 +8,34 @@
     <form method="post" class="FormLayout">
         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
         <div>
-            <label asp-for="@Model.Input.FirstName" class="form-label"></label>
-            <input asp-for="@Model.Input.FirstName" class="form-control" />
-            <span asp-validation-for="@Model.Input.FirstName" class="text-danger"></span>
+            <label asp-for="@Model.Input!.FirstName" class="form-label"></label>
+            <input asp-for="@Model.Input!.FirstName" class="form-control" />
+            <span asp-validation-for="@Model.Input!.FirstName" class="text-danger"></span>
         </div>
         <div>
-            <label asp-for="@Model.Input.LastName" class="form-label"></label>
-            <input asp-for="@Model.Input.LastName" class="form-control" />
-            <span asp-validation-for="@Model.Input.LastName" class="text-danger"></span>
+            <label asp-for="@Model.Input!.LastName" class="form-label"></label>
+            <input asp-for="@Model.Input!.LastName" class="form-control" />
+            <span asp-validation-for="@Model.Input!.LastName" class="text-danger"></span>
         </div>
         <div>
-            <label asp-for="@Model.Input.Email" class="form-label"></label>
-            <input asp-for="@Model.Input.Email" class="form-control" />
-            <span asp-validation-for="@Model.Input.Email" class="text-danger"></span>
+            <label asp-for="@Model.Input!.Email" class="form-label"></label>
+            <input asp-for="@Model.Input!.Email" class="form-control" />
+            <span asp-validation-for="@Model.Input!.Email" class="text-danger"></span>
         </div>
         <div>
-            <label asp-for="@Model.Input.Password" class="form-label"></label>
-            <input asp-for="@Model.Input.Password" class="form-control" />
-            <span asp-validation-for="@Model.Input.Password" class="text-danger"></span>
+            <label asp-for="@Model.Input!.Password" class="form-label"></label>
+            <input asp-for="@Model.Input!.Password" class="form-control" />
+            <span asp-validation-for="@Model.Input!.Password" class="text-danger"></span>
         </div>
         <div>
-            <label asp-for="@Model.Input.PassowdConfirm" class="form-label"></label>
-            <input asp-for="@Model.Input.PassowdConfirm" class="form-control" />
-            <span asp-validation-for="@Model.Input.PassowdConfirm" class="text-danger"></span>
+            <label asp-for="@Model.Input!.PassowdConfirm" class="form-label"></label>
+            <input asp-for="@Model.Input!.PassowdConfirm" class="form-control" />
+            <span asp-validation-for="@Model.Input!.PassowdConfirm" class="text-danger"></span>
         </div>
         <div>
-            <label asp-for="@Model.Input.PhoneNumber" class="form-label"></label>
-            <input asp-for="@Model.Input.PhoneNumber" class="form-control" />
-            <span asp-validation-for="@Model.Input.PhoneNumber" class="text-danger"></span>
+            <label asp-for="@Model.Input!.PhoneNumber" class="form-label"></label>
+            <input asp-for="@Model.Input!.PhoneNumber" class="form-control" />
+            <span asp-validation-for="@Model.Input!.PhoneNumber" class="text-danger"></span>
         </div>
         <div>
             <input type="submit" value="Sign Up" class="btn btn-primary btnconfig" />

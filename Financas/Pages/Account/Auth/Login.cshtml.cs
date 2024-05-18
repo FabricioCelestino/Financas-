@@ -35,7 +35,7 @@ namespace Financas.Pages.Auth
             }
 
             var result = await _signInManager.PasswordSignInAsync(Input.Email, Input.Password, Input.RememberMe, true);
-            
+           
             if (result.Succeeded)
             {
                 LocalRedirect(returnUrl);

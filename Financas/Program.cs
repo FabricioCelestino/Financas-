@@ -1,5 +1,6 @@
 using Financas.Data.DataAcess;
 using Financas.Models;
+using Financas.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
@@ -45,11 +46,12 @@ builder.Services.ConfigureApplicationCookie(options =>
     options.Cookie.HttpOnly = true;
     options.ExpireTimeSpan = TimeSpan.FromMinutes(5);
 
-    options.LoginPath = "/Account/Auth/Login";
+    options.LoginPath = "/Account/Auth/SignIn";
     options.SlidingExpiration = true;
 
 });
 
+builder.Services.AddScoped<SignUpService>();
 
 var app = builder.Build();
 

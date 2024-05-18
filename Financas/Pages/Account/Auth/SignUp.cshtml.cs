@@ -1,5 +1,6 @@
+using Financas.Data.DTOS;
 using Financas.Models;
-using Financas.ViewModel;
+using Financas.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
@@ -8,14 +9,11 @@ namespace Financas.Pages.Account.Auth
 {
     public class SignUpModel : PageModel
     {
-        private readonly UserManager<User> _userManager;
-        private readonly SignInManager<User> _signManager;
+        private readonly SignUpService _signUpService;
 
-        public SignUpModel(UserManager<User> userManager, SignInManager<User> signInManager)
+        public SignUpModel(SignUpService signUpService)
         {
-            _userManager = userManager;
-            _signManager = signInManager;
-
+            _signUpService = signUpService;
         }
 
         public void OnGet()
@@ -34,25 +32,19 @@ namespace Financas.Pages.Account.Auth
                 return Page();
             }
 
-            var user = new User
-            {
-                UserName = Input.FirstName,
-                FirstName = Input.FirstName,
-                LastName = Input.LastName,
-                Email = Input.Email,
-                PhoneNumber = Input.PhoneNumber,
-                Password = Input.Password,
-            };
+            var result = await _signUpService.SignUpAsync(Input!);
 
-            var result = await _userManager.CreateAsync(user, Input.Password);
 
             if (result.Succeeded)
             {
-                await _signManager.SignInAsync(user, isPersistent: false);
                 return LocalRedirect(returnUrl);
             }
-           
-            foreach(var error in result.Errors)
+            else
+            {
+                ModelState.AddModelError(string.Empty, "Invalid login attempt");
+            }
+
+            foreach (var error in result.Errors)
             {
                 ModelState.AddModelError(string.Empty, error.Description);
             }
