@@ -22,11 +22,31 @@ body[b-e7e6cajcp7] {
     flex-direction: row;
 }
 
-li[b-e7e6cajcp7]{
+li[b-e7e6cajcp7] {
     border-radius: 10px;
-
 }
 
-li:hover[b-e7e6cajcp7] {
-    background-color: #d8deeb;
+    li:hover[b-e7e6cajcp7] {
+        background-color: #d8deeb;
+    }
+
+.nav-item-signin[b-e7e6cajcp7] {
+    color: #000000;
+    background-color: #1b6ec2;
+    border-color: #1b6ec2;
+    margin-right: 5px;
 }
+
+    .nav-item-signin:hover[b-e7e6cajcp7] {
+        background-color: #1861ac
+    }
+
+.nav-item-signup[b-e7e6cajcp7] {
+    color: #000000;
+    background-color: #ff2121;
+    border-color: #ff2121
+}
+
+    .nav-item-signup:hover[b-e7e6cajcp7] {
+        background-color: #d40000;
+    }

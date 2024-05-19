@@ -11,13 +11,15 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddRazorPages();
 
+var connString = builder.Configuration["ConnectionStrings:DefaultConnection"];
+
 builder.Services.AddDbContext<ApplicationDataBase>(options =>
-options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultString")));
+options.UseSqlServer(connString));
 
 
 builder.Services.AddIdentity<User, IdentityRole>()
     .AddEntityFrameworkStores<ApplicationDataBase>()
-    ;
+    .AddDefaultTokenProviders();
 
 
 builder.Services.Configure<IdentityOptions>(options =>
@@ -47,11 +49,13 @@ builder.Services.ConfigureApplicationCookie(options =>
     options.ExpireTimeSpan = TimeSpan.FromMinutes(5);
 
     options.LoginPath = "/Account/Auth/SignIn";
+    options.LogoutPath = "/Index";
     options.SlidingExpiration = true;
 
 });
 
 builder.Services.AddScoped<SignUpService>();
+builder.Services.AddScoped<SignInService>();
 
 var app = builder.Build();
 

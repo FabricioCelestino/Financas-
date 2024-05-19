@@ -1,5 +1,6 @@
+using Financas.Data.DTOS;
 using Financas.Models;
-using Financas.ViewModel;
+using Financas.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
@@ -9,13 +10,11 @@ namespace Financas.Pages.Auth
     public class LoginModel : PageModel
     {
 
-        private readonly UserManager<User> _userManager;
-        private readonly SignInManager<User> _signInManager;
+        private readonly SignInService _signInService;
 
-        public LoginModel(UserManager<User> userManager, SignInManager<User> signInManager)
+        public LoginModel(SignInService signInService)
         {
-            _userManager = userManager;
-            _signInManager = signInManager;
+            _signInService = signInService;
         }
 
         public void OnGet()
@@ -23,7 +22,7 @@ namespace Financas.Pages.Auth
         }
 
         [BindProperty(SupportsGet = true)]
-        public SignInViewModel? Input { get; set; }
+        public SignInDTO Input { get; set; } = default!;
 
         public async Task<IActionResult> OnPost(string? returnUrl = null)
         {
@@ -34,17 +33,21 @@ namespace Financas.Pages.Auth
                 return Page();
             }
 
-            var result = await _signInManager.PasswordSignInAsync(Input.Email, Input.Password, Input.RememberMe, true);
-           
+            var result = await _signInService.SignInAsync(Input!);
+
             if (result.Succeeded)
             {
-                LocalRedirect(returnUrl);
-                
+                return LocalRedirect(returnUrl);
             }
             else
             {
                 ModelState.AddModelError(string.Empty, "Invalid login attempt.");
-                return Page();
+            }
+
+            if(result.IsLockedOut)
+            {
+                ModelState.AddModelError(string.Empty, "Usuário bloqueado, Tente novamente " +
+                    "em 5 minutos");
             }
 
             return Page();

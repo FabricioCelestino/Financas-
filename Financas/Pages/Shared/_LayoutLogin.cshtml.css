@@ -22,11 +22,31 @@
     flex-direction: row;
 }
 
-li{
+li {
     border-radius: 10px;
-
 }
 
-li:hover {
-    background-color: #d8deeb;
+    li:hover {
+        background-color: #d8deeb;
+    }
+
+.nav-item-signin {
+    color: #000000;
+    background-color: #1b6ec2;
+    border-color: #1b6ec2;
+    margin-right: 5px;
 }
+
+    .nav-item-signin:hover {
+        background-color: #1861ac
+    }
+
+.nav-item-signup {
+    color: #000000;
+    background-color: #ff2121;
+    border-color: #ff2121
+}
+
+    .nav-item-signup:hover {
+        background-color: #d40000;
+    }

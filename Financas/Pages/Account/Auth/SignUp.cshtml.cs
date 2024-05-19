@@ -21,7 +21,7 @@ namespace Financas.Pages.Account.Auth
         }
 
         [BindProperty]
-        public SignUpViewModel? Input { get; set; }
+        public SignUpDTO Input { get; set; } = default!;
 
         public async Task<IActionResult> OnPost(string? returnUrl = null)
         {
@@ -32,17 +32,14 @@ namespace Financas.Pages.Account.Auth
                 return Page();
             }
 
-            var result = await _signUpService.SignUpAsync(Input!);
+             var result = await _signUpService.SignUpAsync(Input!);
 
 
             if (result.Succeeded)
             {
                 return LocalRedirect(returnUrl);
             }
-            else
-            {
-                ModelState.AddModelError(string.Empty, "Invalid login attempt");
-            }
+           
 
             foreach (var error in result.Errors)
             {

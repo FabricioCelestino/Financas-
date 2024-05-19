@@ -16,9 +16,9 @@ namespace Financas.Services
             _signInManager = signInManager;
         }
 
-        public async Task<IdentityResult> SignUpAsync(SignUpViewModel input)
+        public async Task<IdentityResult> SignUpAsync(SignUpDTO input)
         {
-            
+
             var user = new User
             {
                 UserName = input.Email,
@@ -26,7 +26,7 @@ namespace Financas.Services
                 LastName = input.LastName!,
                 Email = input.Email,
                 PhoneNumber = input.PhoneNumber,
-                Password = input.Password!,
+
             };
 
             var result = await _userManager.CreateAsync(user, input.Password!);
