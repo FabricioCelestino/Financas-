@@ -144,3 +144,6 @@ C:\Users\fabri\source\repos\Financas\Financas\obj\Debug\net8.0\Financas.csproj.A
 C:\Users\fabri\source\repos\Financas\Financas\obj\Debug\net8.0\Financas.csproj.Up2Date
 C:\Users\fabri\source\repos\Financas\Financas\obj\Debug\net8.0\scopedcss\Pages\Account\Auth\Login.cshtml.rz.scp.css
 C:\Users\fabri\source\repos\Financas\Financas\obj\Debug\net8.0\scopedcss\Pages\Account\Auth\SignUp.cshtml.rz.scp.css
+C:\Users\fabri\source\repos\Financas\Financas\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\fabri\source\repos\Financas\Financas\obj\Debug\net8.0\scopedcss\Pages\About.cshtml.rz.scp.css
+C:\Users\fabri\source\repos\Financas\Financas\obj\Debug\net8.0\scopedcss\Pages\Index.cshtml.rz.scp.css

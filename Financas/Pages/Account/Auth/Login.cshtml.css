@@ -1,48 +1,40 @@
-﻿body {
+﻿
+
+body {
 }
 
+.container-mid{
+    margin-top: 10%;
+}
 
 .position {
     display: flex;
     justify-content: center;
-    position: relative;
-    padding: 30px;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
     color: white;
-    border-radius: 20px;
-    width: 25%;
-    height: 40%;
-    align-content: center;
-    flex-wrap: wrap;
+    border-radius: 15px;
+    width: 400px;
+    height: 400px;
+    gap: 20px;
+    background-color: #120a8f;
+}
+
+
+
+h2{
+    
+    font-size: 25px;
 }
 
 .RememberMePosition {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 10px;
-}
-
-.btnconfig {
-    margin-top: 5px;
-    background-color: #d8deeb;
-    color: black;
-    border: none;
-    width:70px;
-    height:35px;
+    align-items: flex-start;
+    
+    
 }
 
 
 
-.ColorForm {
-    background-color: #120a8f;
-}
-
-.FormLayout {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: stretch;
-    width: 100%;
-}

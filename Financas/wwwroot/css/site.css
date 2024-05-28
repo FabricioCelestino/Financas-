@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
 html {
   font-size: 14px;
 }
@@ -17,6 +19,35 @@ html {
   min-height: 100%;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
 body {
-  margin-bottom: 60px;
+  
+ 
+}
+
+.dispalycenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-btn {
+    margin-top: 5px;
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid;
+    border-radius: 10px;
+    width: 70px;
+    text-align: center;
+    height: 35px;
+    padding: 0px;
+}
+
+.form-btn :focus{
+    background-color: red;
 }

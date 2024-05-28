@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "yt1Vm0TBM+qGD0p0sLqkg6RO3Chu/eQ+fHeVLwl1djY=",
+  "Hash": "F0VcbvA0pMV2qdHBOMcVwAITQLfIlhyPT7UNiw2tG/s=",
   "Source": "Financas",
   "BasePath": "_content/Financas",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\fabri\\source\\repos\\Financas\\Financas\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Financas.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\fabri\\source\\repos\\Financas\\Financas\\wwwroot\\Assets\\mockup-app.png",
+      "SourceId": "Financas",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\fabri\\source\\repos\\Financas\\Financas\\wwwroot\\",
+      "BasePath": "_content/Financas",
+      "RelativePath": "Assets/mockup-app.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Assets\\mockup-app.png"
     },
     {
       "Identity": "C:\\Users\\fabri\\source\\repos\\Financas\\Financas\\wwwroot\\css\\site.css",

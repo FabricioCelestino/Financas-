@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace Financas.Pages
 {
-    [Authorize]
+    
     public class PrivacyModel : PageModel
     {
         private readonly ILogger<PrivacyModel> _logger;
@@ -14,6 +14,7 @@ namespace Financas.Pages
             _logger = logger;
         }
 
+        
         public void OnGet()
         {
         }

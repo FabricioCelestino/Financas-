@@ -14,7 +14,7 @@ namespace Financas.Pages
 
         public void OnGet()
         {
-
+            var username = User.Identity!.Name ?? string.Empty;
         }
     }
 }

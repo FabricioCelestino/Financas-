@@ -1,12 +1,14 @@
 using Financas.Data.DTOS;
 using Financas.Models;
 using Financas.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace Financas.Pages.Account.Auth
 {
+    
     public class SignUpModel : PageModel
     {
         private readonly SignUpService _signUpService;

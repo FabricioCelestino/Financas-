@@ -1,52 +1,57 @@
+/* _content/Financas/Pages/About.cshtml.rz.scp.css */
+body[b-4bhf501dog] {
+}
+
+p[b-4bhf501dog]{
+    padding-right: 400px;
+    font-size: 24px;
+    font-family: "krona one", "sans serif"
+}
+
+strong[b-4bhf501dog]{
+    color: red;
+}
 /* _content/Financas/Pages/Account/Auth/Login.cshtml.rz.scp.css */
+
+
 body[b-20aphebhd3] {
 }
 
+.container-mid[b-20aphebhd3]{
+    margin-top: 10%;
+}
 
 .position[b-20aphebhd3] {
     display: flex;
     justify-content: center;
-    position: relative;
-    padding: 30px;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
     color: white;
-    border-radius: 20px;
-    width: 25%;
-    height: 40%;
-    align-content: center;
-    flex-wrap: wrap;
+    border-radius: 15px;
+    width: 400px;
+    height: 400px;
+    gap: 20px;
+    background-color: #120a8f;
+}
+
+
+
+h2[b-20aphebhd3]{
+    
+    font-size: 25px;
 }
 
 .RememberMePosition[b-20aphebhd3] {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 10px;
-}
-
-.btnconfig[b-20aphebhd3] {
-    margin-top: 5px;
-    background-color: #d8deeb;
-    color: black;
-    border: none;
-    width:70px;
-    height:35px;
+    align-items: flex-start;
+    
+    
 }
 
 
 
-.ColorForm[b-20aphebhd3] {
-    background-color: #120a8f;
-}
-
-.FormLayout[b-20aphebhd3] {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: stretch;
-    width: 100%;
-}
 /* _content/Financas/Pages/Account/Auth/SignUp.cshtml.rz.scp.css */
 body[b-i1g8wau2q8] {
 }
@@ -54,34 +59,75 @@ body[b-i1g8wau2q8] {
 .position[b-i1g8wau2q8] {
     display: flex;
     justify-content: center;
-    position: relative;
+    align-items: center;
     padding: 30px;
     color: white;
     border-radius: 20px;
-    width: 25%;
-    height: 40%;
-    align-content: center;
-    flex-wrap: wrap;
-}
-
-
-.btnconfig[b-i1g8wau2q8] {
-    margin-top: 5px;
-    background-color: #d8deeb;
-    color: black;
-    border: none;
-}
-
-
-.ColorForm[b-i1g8wau2q8] {
+    width: 400px;
+    height: 100%;
     background-color: #120a8f;
 }
 
-.FormLayout[b-i1g8wau2q8] {
+.container-mid[b-i1g8wau2q8]{
+    margin-top: 5%;
+}
+/* _content/Financas/Pages/Index.cshtml.rz.scp.css */
+*[b-9lxcl6616i]{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+body[b-9lxcl6616i] {
+}
+
+.container-cl1[b-9lxcl6616i]{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #dfebfa;
+    padding: 70px 200px 10px 200px;
+    gap: 20px;
+}
+
+
+.sub-container-cl1[b-9lxcl6616i] {
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: stretch;
+    justify-content: flex-start;
+    gap: 10px;
+    width: 590px;
+    height: 590px;
+}
+
+
+.sub-container-cl2[b-9lxcl6616i] {
+    display: flex;
+    flex-direction: column;
+    width: 590px;
+    height: 590px;
+}
+
+h1[b-9lxcl6616i]{
+    font-size:50px;
+}
+
+h1 span[b-9lxcl6616i] {
+    color: #327be7;
+
+}
+
+input[b-9lxcl6616i] {
+    padding-left: 10px;
+    height: 56px;
+    border-radius: 12px;
+    width: 400px;
+    Transition:width 0.4S ease-in-out
+}
+
+input:focus[b-9lxcl6616i]{
     width: 100%;
 }
 /* _content/Financas/Pages/Shared/_Layout.cshtml.rz.scp.css */
@@ -92,6 +138,10 @@ a.navbar-brand[b-op8a3t7oau] {
     white-space: normal;
     text-align: center;
     word-break: break-all;
+}
+
+.nav-color[b-op8a3t7oau]{
+    background-color: #dfebf9;
 }
 
 a[b-op8a3t7oau] {
@@ -168,13 +218,17 @@ li:hover[b-op8a3t7oau] {
 
 
 /* _content/Financas/Pages/Shared/_LayoutLogin.cshtml.rz.scp.css */
+
+
 body[b-e7e6cajcp7] {
     height: 1004px;
+   
 }
 
 .footer[b-e7e6cajcp7] {
     position: absolute;
     bottom: 0;
+    
     width: 100%;
     white-space: nowrap;
     line-height: 60px;
@@ -182,14 +236,16 @@ body[b-e7e6cajcp7] {
 
 
 
+
 .displaymain[b-e7e6cajcp7] {
-    width: 100%;
-    height: 100%;
+    margin: 0;
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-content:center;
+    align-items: center;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
+    padding: 0px;
 }
 
 li[b-e7e6cajcp7] {
@@ -220,3 +276,5 @@ li[b-e7e6cajcp7] {
     .nav-item-signup:hover[b-e7e6cajcp7] {
         background-color: #d40000;
     }
+
+

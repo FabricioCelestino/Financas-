@@ -4,33 +4,15 @@
 .position {
     display: flex;
     justify-content: center;
-    position: relative;
+    align-items: center;
     padding: 30px;
     color: white;
     border-radius: 20px;
-    width: 25%;
-    height: 40%;
-    align-content: center;
-    flex-wrap: wrap;
-}
-
-
-.btnconfig {
-    margin-top: 5px;
-    background-color: #d8deeb;
-    color: black;
-    border: none;
-}
-
-
-.ColorForm {
+    width: 400px;
+    height: 100%;
     background-color: #120a8f;
 }
 
-.FormLayout {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: stretch;
-    width: 100%;
+.container-mid{
+    margin-top: 5%;
 }

@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\Financas.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\fabri\\source\\repos\\Financas\\Financas\\wwwroot\\Assets\\mockup-app.png",
+      "PackagePath": "staticwebassets\\Assets\\mockup-app.png"
+    },
+    {
       "Id": "C:\\Users\\fabri\\source\\repos\\Financas\\Financas\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

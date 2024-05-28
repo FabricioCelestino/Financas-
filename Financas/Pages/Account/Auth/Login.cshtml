@@ -5,27 +5,32 @@
     Layout = "_LayoutLogin";
 }
 
-<div class="position ColorForm">
-    <form method="post" class="FormLayout">
-        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+<div class="container-mid">
+    <div class="position">
         <div>
-            <label asp-for="@Model.Input.Email" class="form-label"></label>
-            <input asp-for="@Model.Input.Email" class="form-control" />
-            <span asp-validation-for="@Model.Input!.Email" class="text-danger"></span>
+            <h2>Entrar</h2>
         </div>
-        <div>
-            <label asp-for="@Model.Input.Password" class="form-label"></label>
-            <input asp-for="@Model.Input.Password" class="form-control" />
-            <span asp-validation-for="@Model.Input!.Password" class="text-danger"></span>
-        </div>
-        <div class="RememberMePosition">
-            <label asp-for="@Model.Input.RememberMe" class="form-label"></label>
-            <input asp-for="@Model.Input.RememberMe" type="checkbox" class="form-check" />
-        </div>
-        <div>
-            <input type="submit" value="SignIn" class="btn btn-primary btnconfig" />
-        </div>
-      
-    </form>
+        <form method="post" class="form">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div>
+                <label asp-for="@Model.Input.Email" class="form-label"></label>
+                <input asp-for="@Model.Input.Email" class="form-control" />
+                <span asp-validation-for="@Model.Input!.Email" class="text-danger"></span>
+            </div>
+            <div>
+                <label asp-for="@Model.Input.Password" class="form-label"></label>
+                <input asp-for="@Model.Input.Password" class="form-control" />
+                <span asp-validation-for="@Model.Input!.Password" class="text-danger"></span>
+            </div>
+            <div class="RememberMePosition">
+                <input asp-for="@Model.Input.RememberMe" type="checkbox" class="form-check" />
+                <label asp-for="@Model.Input.RememberMe" class="form-label"></label>
+            </div>
+            <div>
+                <input type="submit" value="Sign" class="form-btn" />
+            </div>
 
+        </form>
+
+    </div>
 </div>

@@ -1,4 +1,5 @@
 using Financas.Data.DTOS;
+using Financas.Exceptions;
 using Financas.Models;
 using Financas.Services;
 using Microsoft.AspNetCore.Identity;
@@ -11,6 +12,7 @@ namespace Financas.Pages.Auth
     {
 
         private readonly SignInService _signInService;
+        private string _message = default!;
 
         public LoginModel(SignInService signInService)
         {
@@ -26,29 +28,38 @@ namespace Financas.Pages.Auth
 
         public async Task<IActionResult> OnPost(string? returnUrl = null)
         {
-            returnUrl = returnUrl ?? Url.Content("/Index");
+            returnUrl ??= Url.Content("/Index");
 
+            //Verifica se os campos do formulário não foram preenchidos corretamente
+            //Se for o caso, retorna para a página novamente
             if (!ModelState.IsValid)
             {
                 return Page();
+
             }
 
-            var result = await _signInService.SignInAsync(Input!);
 
-            if (result.Succeeded)
+            try
             {
-                return LocalRedirect(returnUrl);
+                //Chama o método responsável por efetuar o login
+                var token = await _signInService.SignInAsync(Input!);
+
+                //Caso o login seja bem sucedido,
+                //Retorna para a página protegida que chamou a página login ou para a página Index
+                return Page();
             }
-            else
+            catch (UnauthenticatedUserException ex)
             {
-                ModelState.AddModelError(string.Empty, "Invalid login attempt.");
+                _message = ex.Message;
+
+            }
+            catch (LockoutUSerException ex)
+            {
+                _message = ex.Message;
+
             }
 
-            if(result.IsLockedOut)
-            {
-                ModelState.AddModelError(string.Empty, "Usuário bloqueado, Tente novamente " +
-                    "em 5 minutos");
-            }
+            ModelState.AddModelError(string.Empty, _message);
 
             return Page();
 
