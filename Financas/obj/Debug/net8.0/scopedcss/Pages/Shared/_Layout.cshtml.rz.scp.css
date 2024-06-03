@@ -7,7 +7,7 @@ a.navbar-brand[b-op8a3t7oau] {
     word-break: break-all;
 }
 
-.nav-color[b-op8a3t7oau]{
+.nav-color[b-op8a3t7oau] {
     background-color: #dfebf9;
 }
 
@@ -27,25 +27,27 @@ a[b-op8a3t7oau] {
     border-color: #1861ac;
 }
 
+ul[b-op8a3t7oau]{
+    gap: 3px;
+}
+
 .nav-item-signin[b-op8a3t7oau] {
-    color: #000000;
     background-color: #1b6ec2;
     border-color: #1b6ec2;
-    margin-right : 5px;
 }
 
-.nav-item-signin:hover[b-op8a3t7oau]{
-    background-color: #1861ac
-}
+    .nav-item-signin:hover[b-op8a3t7oau] {
+        background-color: #1861ac
+    }
 
 .nav-item-signup[b-op8a3t7oau] {
-    color: #000000;
     background-color: #ff2121;
     border-color: #ff2121
 }
-.nav-item-signup:hover[b-op8a3t7oau]{
-    background-color: #d40000;
-}
+
+    .nav-item-signup:hover[b-op8a3t7oau] {
+        background-color: #d40000;
+    }
 
 .border-top[b-op8a3t7oau] {
     border-top: 1px solid #e5e5e5;
@@ -74,13 +76,9 @@ button.accept-policy[b-op8a3t7oau] {
 
 li[b-op8a3t7oau] {
     border-radius: 10px;
+    width:50%;
 }
 
-
-
-li:hover[b-op8a3t7oau] {
-  background-color: #d8deeb;
-}
-
-
-
+    li:hover[b-op8a3t7oau] {
+        background-color: #d8deeb;
+    }

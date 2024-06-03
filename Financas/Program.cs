@@ -5,6 +5,7 @@ using Financas.Models;
 using Financas.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Components.Server.ProtectedBrowserStorage;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -45,12 +46,20 @@ builder.Services.AddAuthentication(options =>
     options.SaveToken = true;
     
     
+}).AddCookie(options =>
+{
+    options.LoginPath = "/Account/Auth/SignIn";
+    options.LogoutPath = "/";
+    options.ExpireTimeSpan = TimeSpan.FromMinutes(40);
+    options.Cookie.HttpOnly = true;
+    
 });
 
 builder.Services.AddAuthorization(options =>
 {
     options.AddPolicy("Authenticate", policy => policy.RequireAuthenticatedUser());
     options.AddPolicy("IdadeMinima", policy => policy.AddRequirements(new IdadeMinima(18)));
+    
 });
 
 
@@ -80,13 +89,19 @@ builder.Services.Configure<IdentityOptions>(options =>
 
 });
 
+
+
 builder.Services.AddTransient<IAuthorizationHandler, IdadeAuthorization>();
 
 builder.Services.AddScoped<SignUpService>();
 
+builder.Services.AddScoped<ProtectedLocalStorage>();
+
 builder.Services.AddScoped<SignInService>();
 
-builder.Services.AddSingleton<ITokenService, TokenService>();
+builder.Services.AddScoped<ITokenService, TokenService>();
+builder.Services.AddScoped<ISignInService, SignInService>();
+builder.Services.AddScoped<ISignUpService, SignUpService>();
 
 var app = builder.Build();
 

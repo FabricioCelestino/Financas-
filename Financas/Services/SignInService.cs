@@ -2,21 +2,27 @@
 using Financas.Exceptions;
 using Financas.Interfaces;
 using Financas.Models;
+using Microsoft.AspNetCore.Authentication.BearerToken;
+using Microsoft.AspNetCore.Components.Server.ProtectedBrowserStorage;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Razor.TagHelpers;
 using Microsoft.EntityFrameworkCore;
+using System.Security.Claims;
 
 namespace Financas.Services
 {
-    public class SignInService
+    public class SignInService : ISignInService
     {
         private readonly SignInManager<User> _signInManager;
         private readonly ITokenService _tokenService;
+        private readonly ProtectedLocalStorage _LocalStorage;
 
-        public SignInService(SignInManager<User> signInManager, ITokenService tokenService)
+        public SignInService(SignInManager<User> signInManager, ITokenService tokenService, ProtectedLocalStorage localStorage)
         {
             _signInManager = signInManager;
             _tokenService = tokenService;
+            _LocalStorage = localStorage;
         }
 
         public async Task<SignInResult> SignInAsync(SignInDTO input)
@@ -39,6 +45,9 @@ namespace Financas.Services
 
             var token = _tokenService.GenerateToken(user!);
 
+            await _LocalStorage.SetAsync("LocalStore", "BearerToken", token);
+            
+            
             return result;
         }
     }

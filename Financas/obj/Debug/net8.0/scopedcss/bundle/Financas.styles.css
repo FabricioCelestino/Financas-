@@ -72,7 +72,7 @@ body[b-i1g8wau2q8] {
     margin-top: 5%;
 }
 /* _content/Financas/Pages/Index.cshtml.rz.scp.css */
-*[b-9lxcl6616i]{
+*[b-9lxcl6616i] {
     margin: 0px;
     padding: 0px;
     border: 0px;
@@ -81,15 +81,36 @@ body[b-i1g8wau2q8] {
 body[b-9lxcl6616i] {
 }
 
-.container-cl1[b-9lxcl6616i]{
-    display:flex;
+.container-cl1[b-9lxcl6616i] {
+    display: flex;
     flex-wrap: wrap;
-    align-items: center;
     flex-direction: row;
     justify-content: center;
-    background-color: #dfebfa;
-    padding: 70px 200px 10px 200px;
+    background-color: var(--cor-primaria);
+    padding: 4% 10% 1% 10%;
     gap: 20px;
+}
+
+@media (max-width: 768px) {
+    .container-cl1[b-9lxcl6616i] {
+        flex-direction: column;
+        gap:25px;
+    }
+
+        .container-cl1 .sub-container-cl1[b-9lxcl6616i] {
+            width: auto;
+            align-items: center;
+        }
+
+            .container-cl1 .sub-container-cl1 h1[b-9lxcl6616i] {
+                font-size: 2.3rem;
+                text-align: center;
+                width:100%;
+            }
+
+        .container-cl1 .sub-container-cl2[b-9lxcl6616i] {
+            width: auto;
+        }
 }
 
 
@@ -97,38 +118,71 @@ body[b-9lxcl6616i] {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    gap: 10px;
-    width: 590px;
-    height: 590px;
+    align-items: flex-start;
+    box-sizing: border-box;
+    gap: 15px;
+    width: 40.82%;
 }
-
 
 .sub-container-cl2[b-9lxcl6616i] {
     display: flex;
     flex-direction: column;
-    width: 590px;
-    height: 590px;
+    align-items: center;
+    justify-content: center;
+    width: 40.82%;
 }
 
-h1[b-9lxcl6616i]{
-    font-size:50px;
+    .sub-container-cl2 img[b-9lxcl6616i] {
+        width: 100%;
+    }
+
+
+
+
+.sub-container-cl1 h1[b-9lxcl6616i] {
+    font-size: 3.125rem;
+    width: 90%;
 }
+
+@media (max-width: 322px) {
+    .sub-container-cl1 h1[b-9lxcl6616i] {
+        font-size: 2.1rem;
+    }
+}
+
+
+
+
+
 
 h1 span[b-9lxcl6616i] {
     color: #327be7;
-
 }
+
+.sub-container-cl1 p[b-9lxcl6616i] {
+    width: 100%;
+}
+
 
 input[b-9lxcl6616i] {
     padding-left: 10px;
     height: 56px;
     border-radius: 12px;
-    width: 400px;
-    Transition:width 0.4S ease-in-out
+    width: 70%;
+    Transition: width 0.7S ease-in-out
 }
 
-input:focus[b-9lxcl6616i]{
-    width: 100%;
+    input:hover[b-9lxcl6616i] {
+        width: 100%;
+    }
+
+    input:focus[b-9lxcl6616i] {
+        width: 100%;
+    }
+
+
+p[b-9lxcl6616i] {
+    max-width: 50ch;
 }
 /* _content/Financas/Pages/Shared/_Layout.cshtml.rz.scp.css */
 /* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
@@ -140,7 +194,7 @@ a.navbar-brand[b-op8a3t7oau] {
     word-break: break-all;
 }
 
-.nav-color[b-op8a3t7oau]{
+.nav-color[b-op8a3t7oau] {
     background-color: #dfebf9;
 }
 
@@ -160,25 +214,27 @@ a[b-op8a3t7oau] {
     border-color: #1861ac;
 }
 
+ul[b-op8a3t7oau]{
+    gap: 3px;
+}
+
 .nav-item-signin[b-op8a3t7oau] {
-    color: #000000;
     background-color: #1b6ec2;
     border-color: #1b6ec2;
-    margin-right : 5px;
 }
 
-.nav-item-signin:hover[b-op8a3t7oau]{
-    background-color: #1861ac
-}
+    .nav-item-signin:hover[b-op8a3t7oau] {
+        background-color: #1861ac
+    }
 
 .nav-item-signup[b-op8a3t7oau] {
-    color: #000000;
     background-color: #ff2121;
     border-color: #ff2121
 }
-.nav-item-signup:hover[b-op8a3t7oau]{
-    background-color: #d40000;
-}
+
+    .nav-item-signup:hover[b-op8a3t7oau] {
+        background-color: #d40000;
+    }
 
 .border-top[b-op8a3t7oau] {
     border-top: 1px solid #e5e5e5;
@@ -207,28 +263,22 @@ button.accept-policy[b-op8a3t7oau] {
 
 li[b-op8a3t7oau] {
     border-radius: 10px;
+    width:50%;
 }
 
-
-
-li:hover[b-op8a3t7oau] {
-  background-color: #d8deeb;
-}
-
-
-
+    li:hover[b-op8a3t7oau] {
+        background-color: #d8deeb;
+    }
 /* _content/Financas/Pages/Shared/_LayoutLogin.cshtml.rz.scp.css */
 
 
 body[b-e7e6cajcp7] {
     height: 1004px;
-   
 }
 
 .footer[b-e7e6cajcp7] {
     position: absolute;
     bottom: 0;
-    
     width: 100%;
     white-space: nowrap;
     line-height: 60px;
@@ -241,40 +291,53 @@ body[b-e7e6cajcp7] {
     margin: 0;
     display: flex;
     justify-content: center;
-    align-content:center;
+    align-content: center;
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
     padding: 0px;
 }
 
+ul[b-e7e6cajcp7]{
+    gap: 3px;
+}
+
 li[b-e7e6cajcp7] {
     border-radius: 10px;
+    text-align: center;
+    padding: 0px 2px;
+    width:auto;
 }
+
 
     li:hover[b-e7e6cajcp7] {
         background-color: #d8deeb;
     }
 
 .nav-item-signin[b-e7e6cajcp7] {
-    color: #000000;
     background-color: #1b6ec2;
-    border-color: #1b6ec2;
-    margin-right: 5px;
+    padding: 0px 2px;
+    width:50%;
 }
 
-    .nav-item-signin:hover[b-e7e6cajcp7] {
-        background-color: #1861ac
+@media (max-width: 576px) {
+    .nav-item-signin[b-e7e6cajcp7] {
+        margin-bottom: 2px;
     }
+}
+
+.nav-item-signin:hover[b-e7e6cajcp7] {
+    background-color: #1861ac
+}
 
 .nav-item-signup[b-e7e6cajcp7] {
-    color: #000000;
+    
     background-color: #ff2121;
-    border-color: #ff2121
+    border-color: #ff2121;
+    width:50%;
 }
 
     .nav-item-signup:hover[b-e7e6cajcp7] {
         background-color: #d40000;
     }
-
 

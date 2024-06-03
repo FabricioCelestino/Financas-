@@ -4,6 +4,10 @@ html {
   font-size: 14px;
 }
 
+:root {
+    --cor-primaria: #dfebfa;
+}
+
 @media (min-width: 768px) {
   html {
     font-size: 16px;
@@ -51,3 +55,4 @@ body {
 .form-btn :focus{
     background-color: red;
 }
+

@@ -7,8 +7,8 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace Financas.Pages
 {
-    
 
+    [Authorize(Policy = "IdadeMinima")]
     public class AboutModel : PageModel
     {
         public void OnGet()

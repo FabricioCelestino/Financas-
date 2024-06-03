@@ -11,19 +11,14 @@ using System.Net.Http.Headers;
 
 namespace Financas.Services
 {
-    public class TokenService : ITokenService
+    public class TokenService(IConfiguration configuration) : ITokenService
     {
-        private readonly IConfiguration _configuration;
-        
-        public TokenService(IConfiguration configuration)
-        {
-            _configuration = configuration;
-        }
+        private readonly IConfiguration _configuration = configuration;
 
         public string GenerateToken(User user)
         {
 
-            JwtSecurityTokenHandler securityTokenHandler = new JwtSecurityTokenHandler();
+            JwtSecurityTokenHandler securityTokenHandler = new();
             byte[] key = Encoding.UTF8.GetBytes(_configuration["Secret:key"]!);
 
             var TokenDescriptor = new SecurityTokenDescriptor

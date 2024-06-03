@@ -1,5 +1,6 @@
 using Financas.Data.DTOS;
 using Financas.Exceptions;
+using Financas.Interfaces;
 using Financas.Models;
 using Financas.Services;
 using Microsoft.AspNetCore.Identity;
@@ -11,10 +12,10 @@ namespace Financas.Pages.Auth
     public class LoginModel : PageModel
     {
 
-        private readonly SignInService _signInService;
+        private readonly ISignInService _signInService;
         private string _message = default!;
 
-        public LoginModel(SignInService signInService)
+        public LoginModel(ISignInService signInService)
         {
             _signInService = signInService;
         }
@@ -42,11 +43,11 @@ namespace Financas.Pages.Auth
             try
             {
                 //Chama o método responsável por efetuar o login
-                var token = await _signInService.SignInAsync(Input!);
+                var result = await _signInService.SignInAsync(Input!);
 
                 //Caso o login seja bem sucedido,
                 //Retorna para a página protegida que chamou a página login ou para a página Index
-                return Page();
+                return LocalRedirect(returnUrl);
             }
             catch (UnauthenticatedUserException ex)
             {

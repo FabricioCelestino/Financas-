@@ -1,4 +1,5 @@
 using Financas.Data.DTOS;
+using Financas.Interfaces;
 using Financas.Models;
 using Financas.Services;
 using Microsoft.AspNetCore.Authorization;
@@ -11,9 +12,9 @@ namespace Financas.Pages.Account.Auth
     
     public class SignUpModel : PageModel
     {
-        private readonly SignUpService _signUpService;
+        private readonly ISignUpService _signUpService;
 
-        public SignUpModel(SignUpService signUpService)
+        public SignUpModel(ISignUpService signUpService)
         {
             _signUpService = signUpService;
         }
@@ -51,4 +52,6 @@ namespace Financas.Pages.Account.Auth
             return Page();
         }
     }
+
+  
 }

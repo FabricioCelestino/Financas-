@@ -7,7 +7,7 @@ a.navbar-brand {
     word-break: break-all;
 }
 
-.nav-color{
+.nav-color {
     background-color: #dfebf9;
 }
 
@@ -27,25 +27,27 @@ a {
     border-color: #1861ac;
 }
 
+ul{
+    gap: 3px;
+}
+
 .nav-item-signin {
-    color: #000000;
     background-color: #1b6ec2;
     border-color: #1b6ec2;
-    margin-right : 5px;
 }
 
-.nav-item-signin:hover{
-    background-color: #1861ac
-}
+    .nav-item-signin:hover {
+        background-color: #1861ac
+    }
 
 .nav-item-signup {
-    color: #000000;
     background-color: #ff2121;
     border-color: #ff2121
 }
-.nav-item-signup:hover{
-    background-color: #d40000;
-}
+
+    .nav-item-signup:hover {
+        background-color: #d40000;
+    }
 
 .border-top {
     border-top: 1px solid #e5e5e5;
@@ -74,13 +76,9 @@ button.accept-policy {
 
 li {
     border-radius: 10px;
+    width:50%;
 }
 
-
-
-li:hover {
-  background-color: #d8deeb;
-}
-
-
-
+    li:hover {
+        background-color: #d8deeb;
+    }

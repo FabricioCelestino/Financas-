@@ -1,4 +1,4 @@
-﻿*{
+﻿* {
     margin: 0px;
     padding: 0px;
     border: 0px;
@@ -7,15 +7,36 @@
 body {
 }
 
-.container-cl1{
-    display:flex;
+.container-cl1 {
+    display: flex;
     flex-wrap: wrap;
-    align-items: center;
     flex-direction: row;
     justify-content: center;
-    background-color: #dfebfa;
-    padding: 70px 200px 10px 200px;
+    background-color: var(--cor-primaria);
+    padding: 4% 10% 1% 10%;
     gap: 20px;
+}
+
+@media (max-width: 768px) {
+    .container-cl1 {
+        flex-direction: column;
+        gap:25px;
+    }
+
+        .container-cl1 .sub-container-cl1 {
+            width: auto;
+            align-items: center;
+        }
+
+            .container-cl1 .sub-container-cl1 h1 {
+                font-size: 2.3rem;
+                text-align: center;
+                width:100%;
+            }
+
+        .container-cl1 .sub-container-cl2 {
+            width: auto;
+        }
 }
 
 
@@ -23,36 +44,69 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    gap: 10px;
-    width: 590px;
-    height: 590px;
+    align-items: flex-start;
+    box-sizing: border-box;
+    gap: 15px;
+    width: 40.82%;
 }
-
 
 .sub-container-cl2 {
     display: flex;
     flex-direction: column;
-    width: 590px;
-    height: 590px;
+    align-items: center;
+    justify-content: center;
+    width: 40.82%;
 }
 
-h1{
-    font-size:50px;
+    .sub-container-cl2 img {
+        width: 100%;
+    }
+
+
+
+
+.sub-container-cl1 h1 {
+    font-size: 3.125rem;
+    width: 90%;
 }
+
+@media (max-width: 322px) {
+    .sub-container-cl1 h1 {
+        font-size: 2.1rem;
+    }
+}
+
+
+
+
+
 
 h1 span {
     color: #327be7;
-
 }
+
+.sub-container-cl1 p {
+    width: 100%;
+}
+
 
 input {
     padding-left: 10px;
     height: 56px;
     border-radius: 12px;
-    width: 400px;
-    Transition:width 0.4S ease-in-out
+    width: 70%;
+    Transition: width 0.7S ease-in-out
 }
 
-input:focus{
-    width: 100%;
+    input:hover {
+        width: 100%;
+    }
+
+    input:focus {
+        width: 100%;
+    }
+
+
+p {
+    max-width: 50ch;
 }

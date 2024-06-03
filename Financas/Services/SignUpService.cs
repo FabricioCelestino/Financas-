@@ -1,19 +1,20 @@
 ﻿using Financas.Data.DTOS;
+using Financas.Interfaces;
 using Financas.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Financas.Services
 {
-    public class SignUpService
+    public class SignUpService : ISignUpService
     {
         private readonly UserManager<User> _userManager;
-        private readonly SignInManager<User> _signInManager;
+        
 
-        public SignUpService(UserManager<User> userManager, SignInManager<User> signInManager)
+        public SignUpService(UserManager<User> userManager)
         {
             _userManager = userManager;
-            _signInManager = signInManager;
+            
         }
 
         public async Task<IdentityResult> SignUpAsync(SignUpDTO input)
@@ -30,11 +31,6 @@ namespace Financas.Services
             };
 
             var result = await _userManager.CreateAsync(user, input.Password!);
-
-            if (result.Succeeded)
-            {
-                await _signInManager.SignInAsync(user, isPersistent: false);
-            }
 
             return result;
         }
